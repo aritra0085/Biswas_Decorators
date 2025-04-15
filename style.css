@@ -718,71 +718,66 @@ h3{
     to {opacity: 1}
 }
 
-/* Responsive Design */
+/* Tablet and below (up to 1024px) */
 @media (max-width: 1024px) {
     .text-box h1 {
         font-size: 52px;
     }
-    
+
     .gallery-slide img {
         max-width: 700px;
     }
 }
 
+/* Medium devices (up to 768px) */
 @media (max-width: 768px) {
     .text-box h1 {
         font-size: 42px;
     }
-    
+
     .row {
         flex-direction: column;
     }
-    
-    .decoration-col, .work-col, .facilities-col, .testimonial-col {
+
+    .decoration-col,
+    .work-col,
+    .facilities-col,
+    .testimonial-col {
         flex-basis: 100%;
         margin-bottom: 30px;
     }
-    
+
     .contact {
         padding: 4rem 5% 2rem;
     }
-    
+
     .input-box .input-field {
         width: 100%;
     }
-    
+
     .gallery-slide img {
         max-width: 400px;
         height: 260px;
     }
-    
-    .icons {
+
+    .icons,
+    .iconss {
         gap: 15px;
     }
-    
-    .iconss {
-        gap: 20px;
-    }
-    
+
     .work-col img {
         height: 250px;
     }
-}
 
-@media (max-width: 780px) {
-    .text-box h1 {
-        font-size: 32px;
-    }
-    
     .text-box p {
         font-size: 24px;
         font-weight: bold;
     }
-    
+
     .nav-links ul li {
         display: block;
     }
-    
+
     .nav-links {
         position: fixed;
         background: #f44336;
@@ -794,7 +789,7 @@ h3{
         z-index: 999;
         transition: 0.5s;
     }
-    
+
     nav i.fa {
         display: block;
         color: #fff;
@@ -802,66 +797,89 @@ h3{
         font-size: 22px;
         cursor: pointer;
     }
-    
+
     .nav-links ul {
         padding: 30px 0 0 20px;
     }
-    
+
     .nav-links ul li a {
         font-size: 16px;
     }
-    
+
     .cta h1 {
         font-size: 24px;
     }
-    
+
     .hero-btn {
         padding: 10px 20px;
         font-size: 16px;
     }
-    
-    .prev, .next {
+
+    .prev,
+    .next {
         padding: 8px;
         font-size: 14px;
     }
-    
+
     .dot {
         height: 8px;
         width: 8px;
     }
-    
+
     nav img {
         width: 140px;
     }
 }
 
+/* Small devices (phones - up to 480px) */
 @media (max-width: 480px) {
     .text-box h1 {
         font-size: 28px;
     }
-    
+
     .footer h4 {
         font-size: 26px;
     }
-    
+
     .contact .heading {
         font-size: 2rem;
     }
-    
+
     .contact-subtitle {
         font-size: 1.2rem;
     }
-    
+
     .submit-btn {
         width: 100%;
         padding: 1rem 2rem;
     }
-    
+
     .iconss {
         gap: 15px;
     }
-    
+
     .iconss i {
         font-size: 24px;
+    }
+
+    .text-box p {
+        font-size: 18px;
+    }
+
+    .gallery-slide img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-links {
+        width: 180px;
+    }
+
+    .nav-links ul li a {
+        font-size: 14px;
+    }
+
+    .hero-btn {
+        font-size: 14px;
     }
 }
