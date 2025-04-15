@@ -769,7 +769,7 @@ h3{
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
     .text-box h1 {
         font-size: 32px;
     }
@@ -835,7 +835,7 @@ h3{
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .text-box h1 {
         font-size: 28px;
     }
