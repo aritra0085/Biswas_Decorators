@@ -775,7 +775,8 @@ h3{
     }
     
     .text-box p {
-        font-size: 14px;
+        font-size: 24px;
+        font-weight: bold;
     }
     
     .nav-links ul li {
