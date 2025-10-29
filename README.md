@@ -23,12 +23,29 @@ This website was built to present their work portfolio, attract clients, and mak
 
 ---
 
-## 📁 Project Structure
-Biswas_Decorators/
-│
-├── index.html # Main homepage
-├── style.css # Styling file
-├── script.js # Frontend interactivity
-├── /assets/ # Images, logos, icons
-├── /gallery/ # Event photos and media
-└── README.md # Project documentation
+## 🚀 Features
+
+✅ Responsive and mobile-friendly design  
+✅ Service showcase with elegant layout  
+✅ Interactive image gallery  
+✅ Client testimonials section  
+✅ Contact form for direct inquiries  
+✅ Smooth scrolling and modern UI animations  
+✅ Fast and optimized static deployment 
+
+---
+
+## 🧩 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/aritra0085/Biswas_Decorators.git
+cd Biswas_Decorators
+
+
+---
+
+That’s production-ready — copy this entire block (from first `# 🎉 Biswas Decorators` to last line) and paste it as your `README.md` in your **Biswas_Decorators** repo.
+
+
